@@ -57,6 +57,11 @@ public class PlayerAdapter extends RecyclerView.Adapter<PlayerAdapter.PlayerView
 
         public void bindPlayer(Player player) {
 
+            playerName.setText(player.getPlayerName());
+            playerNumber.setText(player.getPlayerNumber());
+            playerTeam.setText(player.getPlayerTeam());
+
+
         }
     }
 }
